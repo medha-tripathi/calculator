@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <style>
+        body{
+            background-image: url(https://clipartcraft.com/images/math-clipart-boy-3.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        .container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        input {
+            border-radius: 5px;
+            font-size: 40px;
+            font-style: italic;
+        }
+
+        table {
+            margin: auto;
+        }
+
+        button {
+            font-size: 70px;
+            background-color: cornflowerblue;
+            border: 5px;
+            border-radius: 3px;
+            margin: 5px;
+            width: 92px;
+            height: 90px;
+            cursor: pointer;
+        }
+
+        .calculator {
+            display: inline-block;
+            border-radius: 50px;
+            border: 4px solid;
+            padding: 25px;
+            background-color: bisque;
+        }
+
+        h1 {
+            font-size: 60px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-decoration: underline;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Calculator</h1>
+        <div class="calculator">
+            <input type="text" name="screen" id="screen">
+            <table>
+                <tr>
+                    <td><button>(</button></td>
+                    <td><button>)</button></td>
+                    <td><button>C</button></td>
+                    <td><button>+</button></td>
+                </tr>
+                <tr>
+                    <td><button>7</button></td>
+                    <td><button>8</button></td>
+                    <td><button>9</button></td>
+                    <td><button>X</button></td>
+                </tr>
+                <tr>
+                    <td><button>4</button></td>
+                    <td><button>5</button></td>
+                    <td><button>6</button></td>
+                    <td><button>-</button></td>
+                </tr>
+                <tr>
+                    <td><button>0</button></td>
+                    <td><button>.</button></td>
+                    <td><button>/</button></td>
+                    <td><button>=</button></td>
+                </tr>
+            </table>
+        </div>
+        <h2>PS: Use the on-screen keys only.</h2>
+    </div>
+    <script src="myp5.js"></script>
+</body>
+
+</html>
